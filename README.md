@@ -10,10 +10,10 @@ Given a maze (matrix of size m × n consisting of integers), the taks is to find
 func main() {
     matrix := [][]int{
                 {1, 0, 1, 1}
-				{1, 0, 0, 1},
-				{1, 1, 2, 1},
-				{1, 1, 1, 1},
-			},
+		{1, 0, 0, 1},
+		{1, 1, 2, 1},
+		{1, 1, 1, 1},
+	},
     //allowed to visit
     openPoints := []int{0,2}
     mz, err := NewMaze(matrix, openPoints)
